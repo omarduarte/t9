@@ -52,7 +52,7 @@ describe('t9()', function () {
     t9.insertWord('hillarious');
     t9.insertWord('honest');
     t9.insertWord('DeSales');
-    expect(t9.getWords(2)).to.equal([]);
+    expect(t9.getWords(2)).to.be.empty;
   });
 
   it('fetches all words in a tree', function () {
